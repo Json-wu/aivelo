@@ -63,7 +63,7 @@ window.LEGAL_I18N.privacy = {
       {
         h: "Subscriptions and Payments",
         p: [
-          "Paid plans (Pro at $9.90/month and Unlimited at $49.90/month) are sold through Gumroad, which acts as Merchant of Record. Payment card numbers and billing details are collected and processed by Gumroad, not stored by the extension or Aivelo servers.",
+          "Paid plans (Pro at $9.90/month and Unlimited at $39.90/month) are sold through Gumroad, which acts as Merchant of Record. Payment card numbers and billing details are collected and processed by Gumroad, not stored by the extension or Aivelo servers.",
           "We receive subscription status, plan type, buyer email, and related webhook data from Gumroad to activate features in your account. See our <a href=\"payment-terms.html\">Payment Terms</a> for billing details."
         ]
       },
@@ -200,7 +200,7 @@ window.LEGAL_I18N.privacy = {
       {
         h: "订阅与支付",
         p: [
-          "付费方案（Pro 每月 $9.90，Unlimited 每月 $49.90）通过 Gumroad 销售，Gumroad 为记录商户。支付卡号与账单信息由 Gumroad 收集处理，扩展与 Aivelo 服务器均不存储。",
+          "付费方案（Pro 每月 $9.90，Unlimited 每月 $39.90）通过 Gumroad 销售，Gumroad 为记录商户。支付卡号与账单信息由 Gumroad 收集处理，扩展与 Aivelo 服务器均不存储。",
           "我们接收 Gumroad 的订阅状态、档位、买家邮箱及 Webhook 数据以激活账户功能。计费详情请参阅<a href=\"payment-terms.html\">付款条款</a>。"
         ]
       },
@@ -337,7 +337,7 @@ window.LEGAL_I18N.privacy = {
       {
         h: "サブスクリプションと決済",
         p: [
-          "有料プラン（Pro 月額 $9.90、Unlimited 月額 $49.90）は Gumroad（Merchant of Record）経由で販売されます。カード情報等は Gumroad が処理し、拡張機能や Aivelo サーバーには保存されません。",
+          "有料プラン（Pro 月額 $9.90、Unlimited 月額 $39.90）は Gumroad（Merchant of Record）経由で販売されます。カード情報等は Gumroad が処理し、拡張機能や Aivelo サーバーには保存されません。",
           "Gumroad からサブスクリプション状態、プラン、購入者メール、Webhook データを受け取り機能を有効化します。詳細は<a href=\"payment-terms.html\">お支払い条件</a>をご覧ください。"
         ]
       },
@@ -474,7 +474,7 @@ window.LEGAL_I18N.privacy = {
       {
         h: "구독 및 결제",
         p: [
-          "유료 플랜(Pro 월 $9.90, Unlimited 월 $49.90)은 Gumroad(Merchant of Record)를 통해 판매됩니다. 카드 정보 등은 Gumroad가 처리하며 확장 프로그램·Aivelo 서버에는 저장되지 않습니다.",
+          "유료 플랜(Pro 월 $9.90, Unlimited 월 $39.90)은 Gumroad(Merchant of Record)를 통해 판매됩니다. 카드 정보 등은 Gumroad가 처리하며 확장 프로그램·Aivelo 서버에는 저장되지 않습니다.",
           "Gumroad에서 구독 상태, 플랜, 구매자 이메일, Webhook 데이터를 받아 기능을 활성화합니다. 자세한 내용은 <a href=\"payment-terms.html\">결제 약관</a>을 참조하세요."
         ]
       },
@@ -686,7 +686,7 @@ window.LEGAL_I18N.privacy = {
       { h: "प्रमाणीकरण", p: ["बुनियादी उपयोग के लिए वैकल्पिक; sync, paid प्लान और trial digest के लिए आवश्यक। Google और OTP — Supabase Auth।", "लॉगिन ईमेल Gumroad खरीद को खाते से जोड़ता है।"] },
       { h: "स्थानीय संग्रहण और sync", p: ["Chrome storage में स्थानीय; Pro/Unlimited Supabase (<code>user_extension_preferences</code>) में, LWW conflict।", "अनइंstall या डेटा मिटाने से स्थानीय हटता है; क्लाउड हटाने अनुरोध तक रह सकता है।"] },
       { h: "सूचनाएँ", p: ["पैनल बंद: Chrome alarms/notifications। खुला: polling।", "शीर्षक और सारांश अंश। सेटिंग में बंद कर सकते हैं।"] },
-      { h: "सब्सक्रिप्शन और भुगतान", p: ["Pro ($9.90/माह) और Unlimited ($49.90/माह) Gumroad (Merchant of Record) से। भुगतान डेटा केवल Gumroad पर।", "स्थिति, प्लान, खरीदार ईमेल, webhooks प्राप्त। <a href=\"payment-terms.html\">भुगतान की शर्तें</a> देखें।"] },
+      { h: "सब्सक्रिप्शन और भुगतान", p: ["Pro ($9.90/माह) और Unlimited ($39.90/माह) Gumroad (Merchant of Record) से। भुगतान डेटा केवल Gumroad पर।", "स्थिति, प्लान, खरीदार ईमेल, webhooks प्राप्त। <a href=\"payment-terms.html\">भुगतान की शर्तें</a> देखें।"] },
       { h: "AI ईमेल डाइजेस्ट", p: ["Unlimited: स्थानीय 22:00 पर Resend से दैनिक। logged-in non-Unlimited को एक बार trial।", "प्रत्येक ईमेल में unsubscribe लिंक; Gumroad सब्सक्रिप्शन रद्द नहीं होता।"] },
       { h: "तीसरे पक्ष", p: ["प्रदाता:"], ul: ["<strong>Supabase</strong>", "<strong>DeepSeek</strong>", "<strong>Resend</strong>", "<strong>Gumroad</strong>", "<strong>RSS प्रकाशक</strong>"] },
       { h: "डेटा प्रतिधारण", p: ["खाता सक्रिय या सेवा/कानूनी आवश्यकता तक।", "एकत्रित/अनाम डेटा अधिक समय तक। लागू कानून के तहत हटाने का अनुरोध।"] },

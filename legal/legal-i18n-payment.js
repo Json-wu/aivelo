@@ -19,7 +19,7 @@ window.LEGAL_I18N.payment = {
         ul: [
           "<strong>Free</strong> — $0/month. Up to 3 followed topics. AI summaries unlimited.",
           "<strong>Pro</strong> — $9.90/month. Up to 10 followed topics. Cross-device preference sync. AI summaries unlimited.",
-          "<strong>Unlimited</strong> — $49.90/month. Unlimited followed topics. Cross-device sync. Daily AI email digest at 22:00 local time. AI summaries unlimited."
+          "<strong>Unlimited</strong> — $39.90/month. Unlimited followed topics. Cross-device sync. Daily AI email digest at 22:00 local time. AI summaries unlimited."
         ]
       },
       {
@@ -92,7 +92,7 @@ window.LEGAL_I18N.payment = {
     siblingLink: { label: "隐私政策", href: "privacy.html" },
     sections: [
       { h: "引言", p: ["本付款条款适用于 Aivelo（<a href=\"https://aivelo.net\" target=\"_blank\" rel=\"noopener\">aivelo.net</a>）提供的 <strong>Industry AI News</strong> Chrome 扩展付费订阅。购买付费方案即表示您同意本条款及<a href=\"privacy.html\">隐私政策</a>。", "生效日期：2026年6月2日。"] },
-      { h: "方案与价格", p: ["所有价格均以美元（USD）标示。Gumroad 结账时可能加收适用税费。"], ul: ["<strong>Free</strong> — $0/月。最多关注 3 个主题。AI 摘要不限量。", "<strong>Pro</strong> — $9.90/月。最多 10 个主题。跨设备偏好同步。AI 摘要不限量。", "<strong>Unlimited</strong> — $49.90/月。主题数量不限。跨设备同步。本地时间 22:00 每日 AI 邮件摘要。AI 摘要不限量。"] },
+      { h: "方案与价格", p: ["所有价格均以美元（USD）标示。Gumroad 结账时可能加收适用税费。"], ul: ["<strong>Free</strong> — $0/月。最多关注 3 个主题。AI 摘要不限量。", "<strong>Pro</strong> — $9.90/月。最多 10 个主题。跨设备偏好同步。AI 摘要不限量。", "<strong>Unlimited</strong> — $39.90/月。主题数量不限。跨设备同步。本地时间 22:00 每日 AI 邮件摘要。AI 摘要不限量。"] },
       { h: "购买要求", p: ["购买付费方案前须使用 Google 或邮箱 OTP 登录。订阅与您登录账户的邮箱绑定。", "结账在 Gumroad 产品页完成。Gumroad 为记录商户并处理支付。Aivelo 不收集或存储您的支付卡信息。"] },
       { h: "激活", p: ["无需许可证密钥。Gumroad 购买成功后，Webhook 将在短时间内激活您账户的档位。若档位未更新，请重新登录或联系 <a href=\"mailto:goaivelo@gmail.com\">goaivelo@gmail.com</a> 并提供 Gumroad 收据邮箱。"] },
       { h: "自动续订与取消", p: ["付费方案每月自动续订直至取消。您可随时在 Gumroad 客户库（Manage subscription）中取消。取消后停止后续扣款；在当前计费周期结束前通常仍可访问。", "卸载扩展不会取消 Gumroad 订阅。"] },
@@ -111,7 +111,7 @@ window.LEGAL_I18N.payment = {
     siblingLink: { label: "プライバシーポリシー", href: "privacy.html" },
     sections: [
       { h: "はじめに", p: ["本お支払い条件は、Aivelo（<a href=\"https://aivelo.net\" target=\"_blank\" rel=\"noopener\">aivelo.net</a>）が提供する <strong>Industry AI News</strong> Chrome 拡張機能の有料サブスクリプションに適用されます。有料プランの購入により、<a href=\"privacy.html\">プライバシーポリシー</a>に加え本条件に同意したものとみなします。", "発効日：2026年6月2日。"] },
-      { h: "プランと料金", p: ["料金は米ドル（USD）表示です。Gumroad のチェックアウトで税金が加算される場合があります。"], ul: ["<strong>Free</strong> — $0/月。フォロー最大3トピック。AI要約無制限。", "<strong>Pro</strong> — $9.90/月。最大10トピック。端末間同期。AI要約無制限。", "<strong>Unlimited</strong> — $49.90/月。トピック無制限。端末間同期。現地22:00の日次AIメールダイジェスト。AI要約無制限。"] },
+      { h: "プランと料金", p: ["料金は米ドル（USD）表示です。Gumroad のチェックアウトで税金が加算される場合があります。"], ul: ["<strong>Free</strong> — $0/月。フォロー最大3トピック。AI要約無制限。", "<strong>Pro</strong> — $9.90/月。最大10トピック。端末間同期。AI要約無制限。", "<strong>Unlimited</strong> — $39.90/月。トピック無制限。端末間同期。現地22:00の日次AIメールダイジェスト。AI要約無制限。"] },
       { h: "購入要件", p: ["有料プラン購入前に Google またはメール OTP でサインインが必要です。サブスクリプションはログインアカウントのメールに紐づきます。", "決済は Gumroad 商品ページで完了します。Gumroad が Merchant of Record として決済を処理。Aivelo はカード情報を保存しません。"] },
       { h: "有効化", p: ["ライセンスキーはありません。Gumroad 購入成功後、Webhook で短時間以内にプランが有効化されます。反映されない場合は再ログインするか、<a href=\"mailto:goaivelo@gmail.com\">goaivelo@gmail.com</a> に Gumroad 領収メールを添えてご連絡ください。"] },
       { h: "自動更新と解約", p: ["有料プランは解約まで毎月自動更新されます。Gumroad カスタマーライブラリ（Manage subscription）からいつでも解約可能。解約後は次回以降の課金は停止；通常は当期間終了までアクセス継続。", "拡張機能のアンインストールは Gumroad サブスクリプションを解約しません。"] },
@@ -130,7 +130,7 @@ window.LEGAL_I18N.payment = {
     siblingLink: { label: "개인정보 처리방침", href: "privacy.html" },
     sections: [
       { h: "소개", p: ["본 결제 약관은 Aivelo(<a href=\"https://aivelo.net\" target=\"_blank\" rel=\"noopener\">aivelo.net</a>)의 <strong>Industry AI News</strong> Chrome 확장 프로그램 유료 구독에 적용됩니다. 유료 플랜 구매 시 <a href=\"privacy.html\">개인정보 처리방침</a> 및 본 약관에 동의합니다.", "시행일: 2026년 6월 2일."] },
-      { h: "플랜 및 가격", p: ["모든 가격은 USD입니다. Gumroad 결제 시 해당 세금이 추가될 수 있습니다."], ul: ["<strong>Free</strong> — $0/월. 주제 최대 3개. AI 요약 무제한.", "<strong>Pro</strong> — $9.90/월. 주제 최대 10개. 기기 간 동기화. AI 요약 무제한.", "<strong>Unlimited</strong> — $49.90/월. 주제 무제한. 기기 간 동기화. 현지 22:00 일일 AI 이메일 다이제스트. AI 요약 무제한."] },
+      { h: "플랜 및 가격", p: ["모든 가격은 USD입니다. Gumroad 결제 시 해당 세금이 추가될 수 있습니다."], ul: ["<strong>Free</strong> — $0/월. 주제 최대 3개. AI 요약 무제한.", "<strong>Pro</strong> — $9.90/월. 주제 최대 10개. 기기 간 동기화. AI 요약 무제한.", "<strong>Unlimited</strong> — $39.90/월. 주제 무제한. 기기 간 동기화. 현지 22:00 일일 AI 이메일 다이제스트. AI 요약 무제한."] },
       { h: "구매 요건", p: ["유료 플랜 구매 전 Google 또는 이메일 OTP로 로그인해야 합니다. 구독은 로그인 계정 이메일에 연결됩니다.", "결제는 Gumroad 제품 페이지에서 완료됩니다. Gumroad가 Merchant of Record로 결제 처리. Aivelo는 카드 정보를 저장하지 않습니다."] },
       { h: "활성화", p: ["라이선스 키 없음. Gumroad 구매 성공 후 Webhook으로 짧은 시간 내 플랜이 활성화됩니다. 반영되지 않으면 재로그인하거나 <a href=\"mailto:goaivelo@gmail.com\">goaivelo@gmail.com</a>에 Gumroad 영수증 이메일을 보내 주세요."] },
       { h: "자동 갱신 및 해지", p: ["유료 플랜은 해지할 때까지 매월 자동 갱신됩니다. Gumroad 고객 라이브러리(Manage subscription)에서 언제든 해지 가능. 해지 후 다음 결제 중단; 일반적으로 현재 청구 기간 종료까지 이용 가능.", "확장 프로그램 제거는 Gumroad 구독을 해지하지 않습니다."] },
@@ -244,7 +244,7 @@ window.LEGAL_I18N.payment = {
     siblingLink: { label: "गोपनीयता नीति", href: "privacy.html" },
     sections: [
       { h: "परिचय", p: ["ये भुगतान की शर्तें Aivelo (<a href=\"https://aivelo.net\" target=\"_blank\" rel=\"noopener\">aivelo.net</a>) द्वारा <strong>Industry AI News</strong> Chrome एक्सटेंशन की paid सब्सक्रिप्शन पर लागू होती हैं। paid प्लान खरीदकर आप इन शर्तों और <a href=\"privacy.html\">गोपनीयता नीति</a> से सहमत होते हैं।", "प्रभावी तिथि: 2 जून 2026।"] },
-      { h: "प्लान और मूल्य", p: ["सभी मूल्य USD में। Gumroad checkout पर लागू कर जोड़े जा सकते हैं।"], ul: ["<strong>Free</strong> — $0/माह। अधिकतम 3 विषय। AI सारांश असीमित।", "<strong>Pro</strong> — $9.90/माह। अधिकतम 10 विषय। cross-device sync। AI सारांश असीमित।", "<strong>Unlimited</strong> — $49.90/माह। असीमित विषय। sync। स्थानीय 22:00 पर दैनिक AI ईमेल डाइजेस्ट। AI सारांश असीमित।"] },
+      { h: "प्लान और मूल्य", p: ["सभी मूल्य USD में। Gumroad checkout पर लागू कर जोड़े जा सकते हैं।"], ul: ["<strong>Free</strong> — $0/माह। अधिकतम 3 विषय। AI सारांश असीमित।", "<strong>Pro</strong> — $9.90/माह। अधिकतम 10 विषय। cross-device sync। AI सारांश असीमित।", "<strong>Unlimited</strong> — $39.90/माह। असीमित विषय। sync। स्थानीय 22:00 पर दैनिक AI ईमेल डाइजेस्ट। AI सारांश असीमित।"] },
       { h: "खरीद आवश्यकताएँ", p: ["paid प्लान खरीदने से पहले Google या ईमेल OTP से लॉगिन आवश्यक। सब्सक्रिप्शन लॉगिन खाते के ईमेल से जुड़ा।", "Checkout Gumroad उत्पाद पृष्ठों पर। Gumroad Merchant of Record है। Aivelo कार्ड विवरण संग्रहीत नहीं करता।"] },
       { h: "सक्रियण", p: ["कोई license key नहीं। Gumroad खरीद के बाद webhook शीघ्र प्लान सक्रिय करता है। अपडेट न हो तो पुनः लॉगिन करें या <a href=\"mailto:goaivelo@gmail.com\">goaivelo@gmail.com</a> पर Gumroad रसीद भेजें।"] },
       { h: "ऑटो-नवीनीकरण और रद्दीकरण", p: ["paid प्लान हर महीने ऑटो-नवीनीकरण होते हैं जब तक Gumroad customer library (Manage subscription) से रद्द न करें। वर्तमान billing अवधि के अंत तक पहुँच।", "एक्सटेंशन अनइंस्टॉल Gumroad सब्सक्रिप्शन रद्द नहीं करता।"] },
