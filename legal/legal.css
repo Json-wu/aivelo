@@ -1,0 +1,147 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #0284c7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --border: #334155;
+    --accent: #38bdf8;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    sans-serif;
+  line-height: 1.65;
+  font-size: 15px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+header {
+  margin-bottom: 1.75rem;
+}
+
+.brand {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.35rem;
+}
+
+h1 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  line-height: 1.25;
+}
+
+.meta {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+}
+
+.toolbar label {
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.toolbar select {
+  font-size: 0.875rem;
+  padding: 0.35rem 2rem 0.35rem 0.65rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.toolbar a {
+  font-size: 0.8125rem;
+  color: var(--accent);
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.toolbar a:hover {
+  text-decoration: underline;
+}
+
+article {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.35rem;
+}
+
+article h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+}
+
+article h2:first-child {
+  margin-top: 0;
+}
+
+article p {
+  margin: 0 0 0.85rem;
+  color: var(--text);
+}
+
+article ul {
+  margin: 0 0 0.85rem;
+  padding-left: 1.25rem;
+}
+
+article li {
+  margin-bottom: 0.35rem;
+}
+
+article a {
+  color: var(--accent);
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: center;
+}
